@@ -1,0 +1,15 @@
+=== Reconstruction Report ===
+Cosine (TF-IDF 1-2gram) vs Original:
+ - Rule-based:          0.894
+ - sklearn NN:          0.546
+ - Torch-guided Rules:  0.958
+
+Unigram Overlap P/R/F1 vs Original:
+ - Rule-based:          P=0.889 R=0.913 F1=0.901
+ - sklearn NN:          P=0.646 R=0.581 F1=0.611
+ - Torch-guided Rules:  P=0.952 R=0.956 F1=0.954
+
+Bigram Overlap P/R/F1 vs Original:
+ - Rule-based:          P=0.782 R=0.803 F1=0.792
+ - sklearn NN:          P=0.424 R=0.382 F1=0.402
+ - Torch-guided Rules:  P=0.904 R=0.908 F1=0.906

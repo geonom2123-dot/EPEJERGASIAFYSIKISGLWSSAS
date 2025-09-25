@@ -1,0 +1,4 @@
+=== Word-level Before/After Cosine (PPMI+SVD) ===
+Rule-based    : mean=0.333 | median=0.374 | p10=0.106 | p90=0.527 | n=31
+sklearn NN    : mean=0.158 | median=0.183 | p10=-0.071 | p90=0.377 | n=15
+Torch-guided  : mean=0.339 | median=0.332 | p10=0.099 | p90=0.668 | n=32
